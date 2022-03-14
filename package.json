@@ -1,9 +1,14 @@
 {
   "private": true,
+  "engines": {
+    "node": ">=14.0"
+  },
+  "engineStrict": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "graphql": "^16.3.0",
